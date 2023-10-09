@@ -31,3 +31,5 @@ def lst_human(data):
 data_1 = {'human': lst_human(data), 'robot': lst_robot(data)}
 df = pd.DataFrame(data_1)
 print(df)
+
+
